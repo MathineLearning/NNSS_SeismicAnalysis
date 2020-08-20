@@ -1,4 +1,4 @@
-# NNSS_SeismicAnalysis
+# SeismicAnalysis_NeuralNetwork_NNSS
 ***DISCLAIMER: This was a student lead project attempting to solve a research problem provided by the Nevada National Security Site (NNSS). This does not provide a full proof analysis and should only be used to demonstrate the coding ability of the team. 
 
 # Objective

@@ -25,3 +25,6 @@ This script allows you to view the plots of the whole day and any anomalies that
 5. From these sections the max amplitudes of each section are calculated (variable = allmax)
 6. Using the section max amplitudes data, the location of the max was found
 7. For this project this max was assumed to be the potential S-wave max amplitude
+8. Two pickers were used from obspy.signal.trigger to find the locations of the P and S waves on each anomaly, pk_baer and ar_pick
+9. pk_baer find only p-wave and ar_pick finds both P and S waves
+10. The two P waves were averaged together and rounded to get that point and the S wave point was used from ar_pick

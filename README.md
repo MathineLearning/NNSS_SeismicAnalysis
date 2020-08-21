@@ -28,3 +28,5 @@ This script allows you to view the plots of the whole day and any anomalies that
 8. Two pickers were used from obspy.signal.trigger to find the locations of the P and S waves on each anomaly, pk_baer and ar_pick
 9. pk_baer find only p-wave and ar_pick finds both P and S waves
 10. The two P waves were averaged together and rounded to get that point and the S wave point was used from ar_pick
+
+The output graphs start with the whole day. The text shows the amplitudes of each wave. Then the graphs of each anomaly with the colors of the waves, red=P-wave, yellow=S-wave and blue= the rest of the wave.
